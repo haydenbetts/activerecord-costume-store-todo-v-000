@@ -10,7 +10,7 @@
 
 class CreateCostumes < ActiveRecord::Migrate[4.1]
   def change
-    create_table(:costumes) do |t|
+    create_table :costumes do |t|
       t.column :name, :string
       t.column :price, :float
       t.column :size, :string
