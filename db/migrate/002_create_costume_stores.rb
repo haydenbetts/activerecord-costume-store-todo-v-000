@@ -5,6 +5,7 @@ class CostumeStores < ActiveRecord::Migration[5.1]
       t.column :location, :string
       t.column :costume_inventory, :integer
       t.column :num_of_employees, :integer
+      t.column :
     end
   end
 end
