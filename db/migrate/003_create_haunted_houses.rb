@@ -1,2 +1,3 @@
-class CreateHauntedHouses
+class CreateHauntedHouses < ActiveRecord::Migration[5.1]
+  
 end
