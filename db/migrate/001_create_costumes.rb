@@ -10,5 +10,8 @@
 
 class CreateCostumes < ActiveRecord::Migrate[4.1]
   def change
+    create_table :costumes do |t|
+      t.column
+    end
   end
 end
